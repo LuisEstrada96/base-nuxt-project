@@ -82,4 +82,5 @@ module.exports = {
     server : { port : 9041 },
 
     build : { extend (config, ctx) { config.node = { fs: "empty" } } }
+    
 }
