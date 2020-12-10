@@ -1,0 +1,29 @@
+{
+  "name": "naha-clinician-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "clear && cross-env NODE_ENV=dev nodemon server/index.js --watch server",
+    "build": "clear && nuxt build",
+    "generate": "clear && nuxt generate",
+    "qa": "clear && NODE_ENV=qa pm2 start server/index.js --name naha-clinician-web",
+    "prod": "clear && NODE_ENV=prod pm2 start server/index.js --name naha-clinician-web",
+    "restart": "clear && pm2 restart naha-clinician-web"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.17.3",
+    "config": "^3.3.3",
+    "core-js": "^3.6.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "node-sass": "^5.0.0",
+    "nuxt": "^2.14.6",
+    "nuxt-i18n": "^6.16.0"
+  },
+  "devDependencies": {}
+}

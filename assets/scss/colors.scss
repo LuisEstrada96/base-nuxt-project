@@ -1,0 +1,25 @@
+$primary : #029ebd;
+$secondary : #02cce2;
+
+
+.bg-teal{ background-color: $primary; }
+.text-primary{color:$primary!important}
+a, ul.pagination a{ color: $primary; text-decoration: none; }
+a:hover, ul.pagination a:hover{ color: $primary; text-decoration: underline; }
+
+.btn-primary{ background-color: $primary; border: 1px $primary solid; }
+.btn-primary:hover, .btn-primary:active{ background-color: $secondary !important; border-color: $secondary !important; }
+.btn-primary[disabled]{ background-color: $secondary; border: 1px $primary solid; }
+.btn-primary[disabled]:hover, .btn-primary[disabled]:active{ background-color: $secondary !important; border-color: $primary !important; }
+.btn-outline-primary{ color: $primary; border: 1px $primary solid; }
+.btn-outline-primary:hover, .btn-outline-primary:active{ color: $secondary !important; background: none !important; border-color: $secondary !important; }
+.btn-secondary{ color: $secondary; border: 1px $secondary solid; }
+.btn-secondary:hover, .btn-secondary:active{ color: $primary !important; background: none !important; border-color: $primary !important; }
+.btn-outline-secondary{ color: $secondary; border: 1px $secondary solid; }
+.btn-outline-secondary:hover, .btn-outline-secondary:active{ color: $primary !important; background: none !important; border-color: $primary !important; }
+.btn-light{ color: $primary; }
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link{ color: $primary; }
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{ color: $primary; text-decoration: underline; }
+ul.pagination li.active a{ background: $primary ; }
+ul.pagination a:focus{ box-shadow: none; }
+
