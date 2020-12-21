@@ -1,4 +1,4 @@
-# naha-clinician-web
+# Base NUXT project
 
 ## Create an environment variables file \.env
 ```
